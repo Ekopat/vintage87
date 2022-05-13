@@ -1,0 +1,152 @@
+html,body {
+cursor:url(cursor.png), auto !important;
+}
+. {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family:"Darker Grotesque" !important;
+}
+/*----------- hero section ------------------*/
+
+.video-container {position: absolute;overflow: hidden;
+width: 100%; height: 100vh;}
+
+video {object-fit: cover;
+width: 100vw;
+height: 100vh;
+position: absolute;
+top: 0;
+left: 0;
+}
+
+.video-container::after {
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100vh;
+    background: #1b1b1b; opacity:0.7;
+}
+
+.header {
+    position:absolute;
+    top: 50%; left:45%;
+    transform: translate(-50%, -50%);
+}
+
+.header h1 {color: #d3ae87;
+font: size 80px !important;
+}
+
+@media(max-width: 900px) {.header {
+    left: 50%;
+}
+
+.header h1 {
+    font-size: 34px !important;
+    text-align: center;
+
+}
+
+
+/*----------- navigation -------------*/
+
+
+
+/*----------- about section starts -------------*/
+
+.content{
+    position:absolute;
+    margin-top:110vh;
+    width: 100%;
+}
+ section {
+     padding: 140px 0;
+ }
+ .section-index {
+     color: #d3ae87;
+     font-weight: bolder;
+     font-size: 20px;
+     font-family: poppins !important;
+ }
+
+ .section-heading {
+     color: grey;
+     text-transform: uppercase;
+     letter-spacing: 4px;
+     font-size: 18px;
+ }
+
+ .section-subheading {
+     color: grey;
+     margin: 10px 0;
+ }
+ .section-info {
+     font-size: 24px;
+     color: grey;
+ }
+ .more {
+     margin: 40px 0;
+ }
+ button {
+     background: none;
+     border: .3pt solid rgba(184, 140, 93, 0.7);
+     text-transform: uppercase !important;
+     font-size: 12px !important;
+     letter-spacing: 2px;
+     padding: 18px 36px;
+ }
+
+/*----------- services section starts -------------*/
+
+.services {
+    background: #161616;
+}
+.services{
+    margin: 30px 0;
+}
+.icon ion-icon {
+    font: size 36px;
+    color: grey;
+}
+
+.icon-title {
+    font-size: 28px;
+    margin-bottom: 4px;
+    color: rgb(182, 182, 182);
+    font-weight: lighter; 
+}
+/*----------- Our Team section starts -------------*/
+
+.team-member, .team-img {
+    position: relative;
+}
+
+.team-img {
+    background: grey;
+    height: 340px;
+}
+.members {
+    margin: 50px 0;
+}
+.team-title{
+    margin: 20px 0;
+}
+.team-title h5 {font-size: 28px;}
+.team-title span {
+    font-size: 20px;
+}
+.team-member {
+    overflow: hidden;
+}
+.team-one {
+    background:url(pexels-garvin-st-villier-9452128.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.team-two {
+    background:url(pexels-rangga-aditya-armien-235222.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
